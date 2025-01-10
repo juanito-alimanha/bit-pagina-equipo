@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/*
+fondo morao=ff4f0d4f
+letras=ff6c9aa1
+fondo noticias=ff3465c7
+*/
+
+*/
+:root {
+    --color-primario: #4f0d4f;
+    --color-secundario: #3465c7 ;
+    --color-negro: #343a40;
+    --color-blanco: #e9ecef;
+  }
+*{
+  background-color: #4f0d4f;
+}
+
+.logo{
+    width: 280px; 
+    margin-left: -3rem;
+    margin-top: -1.5rem;
+  }
+  
+  .rubik-regular {
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Peso normal */
+    font-style: normal;
+  }
+
+  .h1 , .h2{
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Peso normal */
+    font-style: bold;
+    font-size: 1.5rem;
+    color: var(--color-secundario);
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+ 
+
+
+
+
+
+
+  @media screen and (min-width: 768px) {
+    .container {
+      width: 75%;
+      margin: 0 auto;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    p {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .container {
+      width: 60%;
+    }
+  
+    h1 {
+      font-size: 3rem;
+    }
+  
+    p {
+      font-size: 1.4rem;
+    }
+  }
