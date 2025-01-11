@@ -14,6 +14,7 @@ fondo noticias=ff3465c7
   }
 body{
   background-color: #4f0d4f;
+  border-style: solid --color-negro 3px;
 }
 
 .logo{
@@ -30,24 +31,36 @@ body{
   }
 .subtitulo{
   padding-left: -1rem;
-  margin-left: 150px;
+  margin-left: 20px;
+  font-size: 24px;
 }
   
 .caja{
-  size: flex;
-  border: #343a40 solid 2px;
-  background-color: #3465c7;
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 20px 12px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #3465c7;
+    margin-bottom: 12px;
+    margin-left: -1rem;
+    margin-right: 1rem;
 }
-  p {
-    margin-left: 15px;
-    font-size: 1rem;
-    
+  .contenido {
+    margin-left: 20px;
+    font-size: 16px;
+    justify-content: left;
   }
   .img-compa{
     width: 110px;
     height: 90px;
+    border-radius: 5px;
   }
-
+.footer{
+  font-size: 18px;
+  text-align: center;
+}
  
 
   @media screen and (min-width: 768px) {
