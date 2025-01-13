@@ -30,6 +30,7 @@ body{
     font-style: normal;
   }
 .subtitulo{
+  font-family: "Rubik", serif;
   padding-left: -1rem;
   margin-left: 20px;
   font-size: 24px;
@@ -37,8 +38,6 @@ body{
   
 .caja{
     display: flex;
-    font-size: 13px;
-    font-weight: 500;
     padding: 20px 12px;
     text-align: center;
     border-radius: 5px;
@@ -46,6 +45,10 @@ body{
     margin-bottom: 12px;
     margin-left: -1rem;
     margin-right: 1rem;
+}
+.a{
+  font-family: "Rubik", serif;
+      font-size: 33px;
 }
   .contenido {
     margin-left: 20px;
@@ -67,19 +70,6 @@ body{
     body{
       background-color: #4f0d4f;
     }
-    
-    .container {
-      width: 75%;
-      margin: 0 auto;
-    }
-  
-    h1 {
-      font-size: 2.5rem;
-    }
-  
-    p {
-      font-size: 1.3rem;
-    }
   }
   
   @media screen and (min-width: 1024px) {
@@ -88,7 +78,7 @@ body{
     
     }
     }
-    .container {
+    .container-section{
       width: 60%;
     }
   
@@ -99,4 +89,3 @@ body{
     p {
       font-size: 1.4rem;
     }
-   
