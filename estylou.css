@@ -38,6 +38,7 @@ body{
   
 .caja{
     display: flex;
+    flex-wrap: wrap;
     padding: 20px 12px;
     text-align: center;
     border-radius: 5px;
@@ -45,6 +46,17 @@ body{
     margin-bottom: 12px;
     margin-left: -1rem;
     margin-right: 1rem;
+}
+
+.boton{
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 10px;
+  border: 3px solid #3465c7;
+  border-radius:30px;
+  margin-top: 15px;
+  transition: all .5s;
+  color: #ffffff;
 }
 .a{
   font-family: "Rubik", serif;
@@ -63,6 +75,7 @@ body{
 .footer{
   font-size: 18px;
   text-align: center;
+  color: #ffffff;
 }
  
 
