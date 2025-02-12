@@ -60,8 +60,10 @@ body{
 }
 .a{
   font-family: "Rubik", serif;
-      font-size: 33px;
-}
+  font-size: 45px;
+  padding-left: 20%;
+  padding-top: 30%;
+ }
   .contenido {
     margin-left: 20px;
     font-size: 16px;
